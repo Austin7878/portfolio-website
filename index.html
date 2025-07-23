@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <!-- swiper CSS -->
+    <!-- <link rel="style" href="assets/css/swiper-bundle.min.css"> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- EmailJS SDK  -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <!-- Main style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Remixicon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+
+    <!-- ScrollReveal JS -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  </head>
+  <body>
+    <!-- Customized Cursor -->
+    <div class="cursor">
+      <div class="Cursor-dot"></div>
+      <div class="Cursor-circle"></div>
+    </div>
+
+    <!-- To top buttom with scroll indicator bar -->
+    <div class="to-top-btn">
+      <a href="#home"><span>To Top</span></a>
+      <div class="scroll-indicator-bar"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="austin-header">
+      <div class="austin-container">
+        <div class="inner">
+          <div class="austin-logo">
+            <a href="#"><span>Austin_Jboi</span></a>
+          </div>
+          <div class="header-btns">
+            <div class="austin-main-btn border-btn lets-talk-btn">
+              <a href="#contact">Let's talk</a>
+            </div>
+            <a href="#contact" class="let-talk-icon"
+              ><i class="ri-chat-1-fill"></i
+            ></a>
+            <div class="theme-btn">
+              <i class="ri-sun-fill sun-icon"></i>
+              <i class="ri-moon-fill moon-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Bottom navigation menu -->
+    <div class="bottom-nav-container">
+      <div class="bottom-nav">
+        <div class="bottom-nav-inner">
+          <i class="ri-arrow-left-down-line menu-hide-btn"></i>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#home" class="current"
+                ><i class="ri-home-4-line"></i><span>Home</span></a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="#about"
+                ><i class="ri-user-line"></i><span>About</span></a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="#resume"
+                ><i class="ri-quote-text"></i><span>Resume</span></a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="#service"
+                ><i class="ri-service-line"></i><span>Service</span></a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="#portfolio"
+                ><i class="ri-briefcase-line"></i><span>Portfolio</span></a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="#contact"
+                ><i class="ri-chat-1-line"></i><span>Contact</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu-show-btn">
+        <div class="bar-01"></div>
+        <div class="bar-02"></div>
+      </div>
+    </div>
+
+    <!-- Home -->
+    <section class="austin-section nav-menu-section" id="home">
+      <div class="austin-container home-container">
+        <div class="austin-wrapper">
+          <div class="home-social">
+            <span>Follow On</span>
+            <div class="social-line"></div>
+            <ul class="social-icons">
+              <li>
+                <a href="https://www.facebook.com/chibuike.obiamaka"
+                  ><i class="ri-facebook-fill"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://x.com/home"
+                  ><i class="ri-twitter-x-fill"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/austinobiamaka/"
+                  ><i class="ri-linkedin-fill"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/settings/profile/"
+                  ><i class="ri-github-fill"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/chibuikeobiamaka/"
+                  ><i class="ri-instagram-fill"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="avatar-container">
+            <div class="austin-main-btn fill-btn hire-btn-01">
+              <a href="#">Hire Me <i class="ri-user-follow-line"></i></a>
+            </div>
+            <div class="avatar-img">
+              <img src="assets/images/img75.gif" alt=""/>
+            </div>
+
+            <div class="avatar-info">
+              <div class="text-content">
+                <h4 class="hello-text">Hello, I'm</h4>
+                <h1 class="my-name">Augustine Obiamaka</h1>
+                <p class="what-i-do">
+                  A Full Stack Web Developer and a Graphic Designer
+                </p>
+              </div>
+              <div class="austin-main-btn fill-btn hire-btn-02">
+                <a href="#">Hire Me <i class="ri-user-follow-line"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <a href="#about" class="home-scroll-btn">
+            <i class="ri-mouse-line mouse-icon"></i>
+            <div>Scroll Down</div>
+            <i class="ri-arrow-down-s-line arrow-icon"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="austin-section nav-menu-section" id="about">
+      <div class="austin-container austin-sub-container">
+        <div class="austin-wrapper">
+          <div class="section-title about-title">
+            <h3>About Me</h3>
+            <p>What I do</p>
+          </div>
+          <div class="section-content">
+            <div class="about-img">
+              <img src="assets/images/img4.jpg" alt="" />
+            </div>
+            <div class="about-details">
+              <div class="about-info">
+                <h4 class="iam">
+                  I'm a Full Stack web Developer & Graphics Designer
+                </h4>
+                <p class="about-description">
+                  As a highly skilled and versatile Full Stack web Developer,
+                  UI/UX Designer, and Graphics Designer, I harness my creative
+                  genius and technical exprertise to creaft innovative,
+                  user-centered digital solutions that captivate audiences and
+                  drive results. with a passion for delivering exceptional user
+                  experiences, i seamlessly blend technical proficiency in
+                  programming languages like HTML, CSS, Java Script, React Js,
+                  Word Press, Bootstrap, Tailwind CSS, Express, Node Js,
+                  MongoDB, GitHub & Graphics Design. with a deep understanding
+                  of user-centered design principles and a flair for creating
+                  stunning visual content.<br /><br />My mission is to bring
+                  digital visions to life, exceeding client expectations with
+                  high-quality, functional, and visually stunning work that
+                  leaves a lasting impression. Let's collaborate to create
+                  something extraordinary!!!...
+                </p>
+              </div>
+              <div class="pro-list">
+                <div class="pro-card">
+                  <span>1+</span>
+                  <p>Years Of Experiences</p>
+                </div>
+
+                <div class="pro-card">
+                  <span>7+</span>
+                  <p>Completed Projects</p>
+                </div>
+
+                <div class="pro-card">
+                  <span>3</span>
+                  <p>Review Projects</p>
+                </div>
+              </div>
+
+              <div class="about-buttons">
+                <div class="austin-main-btn fill-btn">
+                  <a href="#">Hire Me <i class="ri-user-follow-line"></i></a>
+                </div>
+                <div class="austin-main-btn border-btn">
+                  <a href="assets/pdf/Augustine Obiamaka CV.pdf" download
+                    >Download CV</a
+                  >
+                </div>
+                <div class="austin-main-btn border-btn">
+                  <a
+                    href="assets/pdf/Augustine Chibuikem Obiamaka-frontend.pdf"
+                    download
+                    >Download Front-End Certificate</a
+                  >
+                </div>
+                <div class="austin-main-btn border-btn">
+                  <a
+                    href="assets/pdf/Augustine Chibuikem Obiamaka Certificate Backend.pdf"
+                    download
+                    >Download Back-End Certificate</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="austin-section nav-menu-section" id="resume">
+      <div class="austin-container austin-sub-container">
+        <div class="austin-wrapper">
+          <div class="section-title">
+            <h3>My Resume</h3>
+            <p>Combination Of Skills & Experience</p>
+          </div>
+          <div class="resume-tabs">
+            <a class="tab-btn active"
+              ><i class="ri-graduation-cap-line"></i>Education</a
+            >
+            <a class="tab-btn"><i class="ri-sparkling-line"></i>Experience</a>
+            <a class="tab-btn"
+              ><i class="ri-user-settings-line"></i>Personal Skills</a
+            >
+          </div>
+          <div class="section-content">
+            <div class="resume-tab-content education active">
+              <div class="resume-line"></div>
+              <div class="resume-items">
+                <div class="item item-left">
+                  <div class="info">
+                    <i class="ri-graduation-cap-fill"></i>
+                    <div>
+                      <h5>Imperial International Nursery & Primary School</h5>
+                      <p>Lagos Nigeria - Primary</p>
+                      <span>2000 - 2010</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item item-right">
+                  <div class="info">
+                    <i class="ri-graduation-cap-fill"></i>
+                    <div>
+                      <h5>St. Charles Comprehensive College</h5>
+                      <p>Lagos Nigeria - Secondary</p>
+                      <span>2000 - 2012</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item item-left">
+                  <div class="info">
+                    <i class="ri-graduation-cap-fill"></i>
+                    <div>
+                      <h5>Alpat Model Secondary School</h5>
+                      <p>Anambra Nigeria - Collage</p>
+                      <span>2012 - 2017</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item item-right">
+                  <div class="info">
+                    <i class="ri-graduation-cap-fill"></i>
+                    <div>
+                      <h5>New Horizons Computer Learning Center</h5>
+                      <p>Ikeja Lagos Nigeria - School</p>
+                      <span>2024 - 2025</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-tab-content experience">
+              <div class="resume-line"></div>
+              <div class="resume-items">
+                <div class="item item-left">
+                  <div class="info">
+                    <i class="ri-sparkling-fill"></i>
+                    <div>
+                      <h5>X-Polit Limited Center [Computer Operator]</h5>
+                      <p>Lagos - Nigeria</p>
+                      <span>2018 - 2019</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item item-right">
+                  <div class="info">
+                    <i class="ri-sparkling-fill"></i>
+                    <div>
+                      <h5>Future Stars School</h5>
+                      <p>Lagos - Nigeria</p>
+                      <span>2020 - 2023</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item item-left">
+                  <div class="info">
+                    <i class="ri-sparkling-fill"></i>
+                    <div>
+                      <h5>Marieta Eye Clinic</h5>
+                      <p>Lagos - Nigeria</p>
+                      <span>2023 - 2024</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-tab-content Personal-skills">
+              <div class="skill-container">
+                <div class="skill-card">
+                  <div class="skill-title">
+                    <i class="ri-macbook-fill"></i>
+                    <span>Front-End Developer</span>
+                  </div>
+                  <div class="skill-categories">
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>HTML</h5>
+                        <span>Advanced</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>CSS</h5>
+                        <span>Advanced</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>Java-Script</h5>
+                        <span>Advanced</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>React</h5>
+                        <span>Intermediate</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>Bootstrap</h5>
+                        <span>Intermediate</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>Word Press</h5>
+                        <span>Intermediate</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>Next Js</h5>
+                        <span>Intermediate</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>Tailwind CSS</h5>
+                        <span>Advanced</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="skill-title">
+                    <i class="ri-server-fill"></i>
+                    <span>Back-End Developer</span>
+                  </div>
+                  <div class="skill-categories">
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>Firebase</h5>
+                        <span>Basic</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>MySQL</h5>
+                        <span>Advanced</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>MongoDB</h5>
+                        <span>Intermediate</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>Node Js</h5>
+                        <span>Advanced</span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>Express Js</h5>
+                        <span>Basic </span>
+                      </div>
+                    </div>
+
+                    <div class="skill">
+                      <i class="ri-checkbox-circle-fill"></i>
+                      <div class="skill-info">
+                        <h5>Java-Script</h5>
+                        <span>Advanced</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="austin-section nav-menu-sction" id="service">
+      <div class="austin-container austin-sub-container">
+        <div class="austin-wrapper">
+          <div class="section-title">
+            <h3>Services</h3>
+            <p>What I Provide</p>
+          </div>
+          <div class="section-content">
+            <div class="service-container">
+              <div class="card-with-modal">
+                <div class="service-card">
+                  <div class="service-info">
+                    <i class="ri-pencil-ruler-2-fill service-icon"></i>
+                    <h4>Web Design</h4>
+                    <a class="service-see-more"
+                      >See More<i class="ri-arrow-right-up-fill"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div class="service-modal-backdrop">
+                  <div class="service-modal">
+                    <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                    <div class="modal-content">
+                      <div class="modal-title">
+                        <h3>Web Design</h3>
+                        <p>
+                          I am a professional web designer, i have acquired the
+                          skills and knowledge necessary to make your project a
+                          success!
+                        </p>
+                      </div>
+                      <h4>What i Provide</h4>
+                      <ul class="my-services">
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Custom HTML /CSS/ JavaScript Solutions.</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>CSS Frameworks (Tailwind, Bootstrap).</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Responsive Website.</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>E-commerce Platforms.</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Database Solutions.</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Website Hosting.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-with-modal">
+                <div class="service-card">
+                  <div class="service-info">
+                    <i class="ri-image-edit-line service-icon"></i>
+                    <h4>Graphic Design</h4>
+                    <a class="service-see-more"
+                      >See More<i class="ri-arrow-right-up-fill"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div class="service-modal-backdrop">
+                  <div class="service-modal">
+                    <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                    <div class="modal-content">
+                      <div class="modal-title">
+                        <h3>Gaphic Design</h3>
+                        <p>
+                          I have acquired the skills and knowledge necessary to
+                          make your project a success!
+                        </p>
+                      </div>
+                      <h4>What i Provide</h4>
+                      <ul class="my-services">
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Printing & Designing Of Banner & Sticker</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>ID Card</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Jotter</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Logo</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Invitation Card.</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Print Design.</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Photo Shop</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-with-modal">
+                <div class="service-card">
+                  <div class="service-info">
+                    <i class="ri-align-item-left-fill service-icon"></i>
+                    <h4>UI/UX Design</h4>
+                    <a class="service-see-more"
+                      >See More<i class="ri-arrow-right-up-fill"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div class="service-modal-backdrop">
+                  <div class="service-modal">
+                    <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                    <div class="modal-content">
+                      <div class="modal-title">
+                        <h3>UI/UX</h3>
+                        <p>I am a beginner, still learning!</p>
+                      </div>
+                      <h4>What i Provide</h4>
+                      <ul class="my-services">
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Create user Personas</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Design wireframes</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Condduct extensive user research</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>Build prototype</p>
+                        </li>
+                        <li>
+                          <i class="ri-checkbox-circle-fill"></i>
+                          <p>User testing</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="austin-section nav-menu-sction" id="portfolio">
+      <div class="austin-container austin-sub-container">
+        <div class="austin-wrapper">
+          <div class="section-title">
+            <h3>Portfolio</h3>
+            <p>My Creative Works</p>
+          </div>
+          <div class="portfolio-tabs">
+            <a class="tab-btn active" data-filter="all">All</a>
+            <a class="tab-btn" data-filter="web-design">Web Design</a>
+            <a class="tab-btn" data-filter="graphic-design">Graphic Design</a>
+            <a class="tab-btn" data-filter="ui-design">UI/UX</a>
+          </div>
+          <div class="section-content">
+            <div class="portfolio-container">
+              <div class="card-with-modal web-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="assets/images/Portfolio-image/img 4.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <span>Web Design</span>
+                    <h4>Dynamic</h4>
+                    <i class="ri-arrow-right-up-line card-btn"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img
+                          src="assets/images/Portfolio-image/img 4.png"
+                          alt=""
+                        />
+                      </div>
+                      <h4 class="modal-title">Groco Website</h4>
+                      <p class="description">
+                        This e-commerce website project showcases my skills in
+                        online store development, featuring a responsive design
+                        and dynamic product showcase.<br /><br />
+                        I designed and developed a shopping cart solution using
+                        HTML, CSS, and JavaScript, ensuring a smooth checkout
+                        process.<br /><br />
+                        The e-commerce website I built provides an interactive
+                        shopping experience, with features like product
+                        filtering & sorting.
+                      </p>
+
+                      <!-- Add this link section -->
+                      <div class="project-link">
+                        <a
+                          href="https://groco-tau.vercel.app"
+                          target="_blank"
+                          class="live-link"
+                        >
+                          <i class="ri-external-link-line"></i> View Live
+                          Project
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-with-modal graphic-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="assets/images/Portfolio-image/img 3.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <span>Graphic Design</span>
+                    <h4>Flyers</h4>
+                    <i class="ri-arrow-right-up-line card-btn"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img
+                          src="assets/images/Portfolio-image/img 3.png"
+                          alt=""
+                        />
+                      </div>
+                      <h4 class="modal-title">Flyers</h4>
+                      <p class="description">
+                        For this project, i designed a Flyers using CorelDRAW to
+                        create a unique brand identity.<br /><br />
+                        I created a brochure design using CorelDRAW, showcasing
+                        my skills in graphic design & layout.<br /><br />
+                        Through CorelDRAW, I developed a set of vector graphics
+                        & illustrations for a client's project.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-with-modal ui-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="assets/images/Portfolio-image/img 2.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <span>UI/UX</span>
+                    <h4>Wireframes</h4>
+                    <i class="ri-arrow-right-up-line card-btn"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img
+                          src="assets/images/Portfolio-image/img 2.png"
+                          alt=""
+                        />
+                      </div>
+                      <h4 class="modal-title">Wireframes</h4>
+                      <p class="description">
+                        For this project, I created wireframes to visualize and
+                        refine the user experience.<br /><br />
+                        i designed wireframes to map out user flows and
+                        interfaces for optimal navigation.<br /><br />
+                        Through wireframing i developed a solid foundation for
+                        the product's design & layout.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-with-modal web-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="assets/images/Portfolio-image/img 6.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <span>Web Design</span>
+                    <h4>Grilli Restaurant</h4>
+                    <i class="ri-arrow-right-up-line card-btn"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img
+                          src="assets/images/Portfolio-image/img 6.png"
+                          alt=""
+                        />
+                      </div>
+                      <h4 class="modal-title">Groco Website</h4>
+                      <p class="description">
+                        This Restaurant website project showcases my skills in
+                        online store development, featuring a responsive design
+                        and dynamic product showcase.<br /><br />
+                        I designed and developed a Restaurant where people can
+                        book for a place to eat solution using HTML, CSS, and
+                        JavaScript, ensuring a smooth checkout process.<br /><br />
+                        The e-commerce website I built provides an interactive
+                        shopping experience, with features like product
+                        filtering & sorting.
+                      </p>
+
+                      <!-- Add this link section -->
+                      <div class="project-link">
+                        <a
+                          href="https://griilli.vercel.app/"
+                          target="_blank"
+                          class="live-link"
+                        >
+                          <i class="ri-external-link-line"></i> View Live
+                          Project
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-with-modal web-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="assets/images/Portfolio-image/img 5.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <span>Web Design</span>
+                    <h4>Project</h4>
+                    <i class="ri-arrow-right-up-line card-btn"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img
+                          src="assets/images/Portfolio-image/img 5.png"
+                          alt=""
+                        />
+                      </div>
+                      <h4 class="modal-title">Carscon</h4>
+                      <p class="description">
+                        This cars website project showcases my skills in online
+                        store development, featuring a responsive design and
+                        dynamic product showcase.<br /><br />
+                        I designed and developed a place where they can book for
+                        a car i design it using BootStrap, Tailwind CSS, and CSS
+                        ensuring a smooth checkout process.<br /><br />
+                        The e-commerce website I built provides an interactive
+                        shopping experience, with features like product
+                        filtering & sorting.
+                      </p>
+
+                      <!-- Add this link section -->
+                      <div class="project-link">
+                        <a
+                          href="https://cars-one-xi.vercel.app/"
+                          target="_blank"
+                          class="live-link"
+                        >
+                          <i class="ri-external-link-line"></i> View Live
+                          Project
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-with-modal web-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="assets/images/Portfolio-image/img 8.jpg" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <span>Web Design</span>
+                    <h4>Car Rental</h4>
+                    <i class="ri-arrow-right-up-line card-btn"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img
+                          src="assets/images/Portfolio-image/img 8.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <h4 class="modal-title">Car Rental Full-Stack</h4>
+                      <p class="description">
+                        Developed a full-stack car rental platform allowing
+                        users to browse, book, and manage vehicle rentals.
+                        <br /><br />
+                        Implemented user authentication (JWT) for secure
+                        login/signup, role-based access (admin/customer), and
+                        session management and Built a RESTful API backend (Node
+                        + Express) handling car inventory, reservations,
+                        payments (Stripe/PayPal integration), and admin
+                        dashboards.<br /><br />
+                        Utilized MongoDB/PostgreSQL for database management,
+                        ensuring efficient data storage for vehicles, bookings,
+                        and user profiles and Integrated real-time updates
+                        (WebSocket or polling) for booking status and
+                        availability checks.
+                      </p>
+
+                      <!-- Add this link section -->
+                      <div class="project-link">
+                        <a
+                          href="https://car-rental-three-eta.vercel.app/"
+                          target="_blank"
+                          class="live-link"
+                        >
+                          <i class="ri-external-link-line"></i> View Live
+                          Project
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-with-modal web-design">
+                <div class="portfolio-card">
+                  <div class="card-img">
+                    <img src="assets/images/Portfolio-image/img 5.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <span>Web Design</span>
+                    <h4>Project</h4>
+                    <i class="ri-arrow-right-up-line card-btn"></i>
+                  </div>
+                </div>
+
+                <div class="portfolio-modal-backdrop">
+                  <div class="portfolio-modal">
+                    <a class="modal-close-btn"><i class="ri-close-line"></i></a>
+                    <div class="modal-content">
+                      <div class="modal-img">
+                        <img
+                          src="assets/images/Portfolio-image/img 5.png"
+                          alt=""
+                        />
+                      </div>
+                      <h4 class="modal-title">Carscon</h4>
+                      <p class="description">
+                        This cars website project showcases my skills in online
+                        store development, featuring a responsive design and
+                        dynamic product showcase.<br /><br />
+                        I designed and developed a place where they can book for
+                        a place to eat solution using BootStrap, CSS, and
+                        JavaScript, ensuring a smooth checkout process.<br /><br />
+                        The e-commerce website I built provides an interactive
+                        shopping experience, with features like product
+                        filtering & sorting.
+                      </p>
+
+                      <!-- Add this link section -->
+                      <div class="project-link">
+                        <a
+                          href="https://groco-tau.vercel.app"
+                          target="_blank"
+                          class="live-link"
+                        >
+                          <i class="ri-external-link-line"></i> View Live
+                          Project
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--         
+        <div class="testimonials">
+          <div class="section-title">
+            <h3>Awesome Clients</h3>
+            <p>Words From My Clients</p>
+          </div>
+          <div class="section-content">
+            <div class="swiper austin-client-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="client-img">
+                    <img src="assets/images/client images/img1.jpg" alt="" />
+                  </div>
+                  <div class="client-details">
+                    <h3>Odix Perry</h3>
+                    <span>Programmer</span>
+                    <p>
+                      Hi, Austin your work look very nice keep it up proud of
+                      you.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="client-img">
+                    <img src="assets/images/client images/img2.jpg" alt="" />
+                  </div>
+                  <div class="client-details">
+                    <h3>Pweity Ug</h3>
+                    <span>CEO EazyBeauty Skincare</span>
+                    <p>
+                      This is an Outstanding work, I really like the project
+                      remember you still have work to do for my company.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="client-img">
+                    <img src="assets/images/client images/img3.jpg" alt="" />
+                  </div>
+                  <div class="client-details">
+                    <h3>Excellent Micheal</h3>
+                    <span>Full stack Developer</span>
+                    <p>
+                      All what i will say is keep building more project and
+                      never give-up my brother.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next">
+                <i class="ri-arrow-right-s-line"></i>
+              </div>
+              <div class="swiper-button-prev">
+                <i class="ri-arrow-left-s-line"></i>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section class="austin-section nav-menu" id="contact">
+      <div class="austin-container austin-sub-container">
+        <div class="austin-wrapper">
+          <div class="section-title">
+            <h3>Contact Me</h3>
+            <p>Get In Touch</p>
+          </div>
+          <div class="section-content">
+            <div class="contact-container">
+              <div class="contact-info">
+                <h3>Contact Info</h3>
+                <ul class="contact-details">
+                  <li class="contact-item">
+                    <div class="contact-icon">
+                      <i class="ri-mail-send-fill"></i>
+                    </div>
+                    <div class="contact-method">
+                      <span>E-mail</span>
+                      <h4>juniorobiamaka@gmail.com</h4>
+                      <a href="mailto:juniorobiamaka@gmail.com" target="_blank"
+                        ><span>Send<i class="ri-arrow-right-up-line"></i></span
+                      ></a>
+                    </div>
+                  </li>
+
+                  <li class="contact-item">
+                    <div class="contact-icon">
+                      <i class="ri-whatsapp-line"></i>
+                    </div>
+                    <div class="contact-method">
+                      <span>Whatsapp</span>
+                      <h4>+234 9024 310 759</h4>
+                      <a
+                        href="https://wa.me/message/ICA7FTXA4UHEF1"
+                        target="_blank"
+                        ><span>Send<i class="ri-arrow-right-up-line"></i></span
+                      ></a>
+                    </div>
+                  </li>
+
+                  <li class="contact-item">
+                    <div class="contact-icon">
+                      <i class="ri-messenger-fill"></i>
+                    </div>
+                    <div class="contact-method">
+                      <span>Messenger</span>
+                      <h4>Chibuike Obiamaka</h4>
+                      <a
+                        href="https://WWW.facebook.com/chibuike.obiamaka"
+                        target="_blank"
+                        ><span>Send<i class="ri-arrow-right-up-line"></i></span
+                      ></a>
+                    </div>
+                  </li>
+                </ul>
+
+                <h3>Social Info</h3>
+                <ul class="contact-social-links">
+                  <li>
+                    <a href="https://www.facebook.com/chibuike.obiamaka"
+                      ><i class="ri-facebook-fill"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://x.com/home"
+                      ><i class="ri-twitter-x-fill"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/austinobiamaka/"
+                      ><i class="ri-linkedin-fill"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/chibuikeobiamaka/"
+                      ><i class="ri-instagram-fill"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/settings/profile/"
+                      ><i class="ri-github-fill"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- <div class="contact-form-body">
+                <h2>Let's work <span>together.</span></h2>
+                <p>
+                  Please feel free to reach out to me on any social medal
+                  platform or send me a mail to create website for you business
+                  or Company too always at your services.
+                </p>
+                <form action="" method="POST" id="austin-contact-form">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name="full-name"
+                      placeholder="Name *"
+                      required
+                    />
+                  </div>
+
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Email *"
+                      required
+                    />
+                  </div>
+
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name="subject"
+                      placeholder="Subject *"
+                      required
+                    />
+                  </div>
+
+                  <div class="input-group">
+                    <textarea
+                      name="message"
+                      placeholder="Your Message *"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="input-group send-message">
+                    <button
+                      class="austin-main-btn fill-btn submit-btn"
+                      name="submit"
+                      type="submit"
+                    >
+                      Send Message
+                    </button>
+                    <div class="contact-form-alert success-alert">
+                      <span>Your message sent successfully!.</span
+                      ><i class="ri-checkbox-circle-fill"></i>
+                    </div>
+                    <div
+                      class="contact-form-alert error-alert"
+                      style="display: none"
+                    >
+                      <span>Failed to send message. Please try again.</span
+                      ><i class="ri-close-circle-fill"></i>
+                    </div>
+                  </div>
+                </form>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="austin-footer">
+      <div class="austin-container">
+        <div class="inner">
+          <div class="austin-logo">
+            <a href="#home"><span>austin_jboi</span></a>
+          </div>
+          <ul class="footer-menu">
+            <li class="menu-item"><a href="#about">About</a></li>
+            <li class="menu-item"><a href="#resume">Resume</a></li>
+            <li class="menu-item"><a href="#service">Service</a></li>
+            <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+          </ul>
+          <p class="copy-right">
+            @All rights reserved by <a href="">Austin_jboi</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scriper JS -->
+    <!-- <script src="assets/js/swiper-bundle.min.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Email JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script> -->
+
+    <!-- Main javascript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
